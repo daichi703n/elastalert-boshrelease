@@ -20,7 +20,7 @@ packages:
 properties:
   elastalert.rules_folder:
     description: "The name of the folder which contains rule configuration files."
-    default: "../rules"
+    default: "/var/vcap/jobs/elastalert/rules"
   elastalert.run_every:
     description: "how often ElastAlert will query Elasticsearch."
     default: 

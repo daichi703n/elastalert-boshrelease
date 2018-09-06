@@ -28,7 +28,9 @@ case $1 in
     echo "Starting elastalert..." >>$LOG_DIR/elastalert.stdout.log
     echo $$ > $PIDFILE
 
-    exec elastalert --config $CONFIG_DIR/config.yml \
+    exec elastalert --verbose \
+      --es_debug_trace $LOG_DIR/trace.log \
+      --config $CONFIG_DIR/config.yml \
       >>$LOG_DIR/elastalert.stdout.log 2>>$LOG_DIR/elastalert.stderr.log
     ;;
 

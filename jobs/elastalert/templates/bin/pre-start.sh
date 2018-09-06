@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RULE_DIR=/var/vcap/jobs/elastalert/bin/<%= p('elastalert.rules_folder') %>
+RULE_DIR=<%= p('elastalert.rules_folder') %>
 
 mkdir -p ${RULE_DIR}
 rm -f ${RULE_DIR}/*
