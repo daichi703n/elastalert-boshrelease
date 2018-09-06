@@ -1,0 +1,9 @@
+---
+name: elastalert
+
+dependencies:
+- python2.7
+
+files:
+- elastalert/*.tar.gz
+- libffi/libffi-3.2.1.tgz

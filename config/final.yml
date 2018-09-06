@@ -1,0 +1,6 @@
+name: elastalert
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /tmp/elastalert
+
