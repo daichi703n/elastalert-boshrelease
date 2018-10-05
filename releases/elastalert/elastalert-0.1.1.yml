@@ -1,21 +1,21 @@
 name: elastalert
 version: 0.1.1
-commit_hash: d9fcaec
+commit_hash: bdd5445
 uncommitted_changes: true
 jobs:
 - name: elastalert
   version: 24c093f6a2fcefd712ea25ab63e96cc27a18fdc0
   fingerprint: 24c093f6a2fcefd712ea25ab63e96cc27a18fdc0
-  sha1: bbdc1957b635dddb7d17f4bca14cf2339221418f
+  sha1: 45ff6690ac6d77704eeb2b0aa9152c37147f731c
 packages:
 - name: elastalert
   version: 7f9844b0717da76dffc9be79bfcf6b41d4bd7983
   fingerprint: 7f9844b0717da76dffc9be79bfcf6b41d4bd7983
-  sha1: 76dcdc499822a371e8928ad7388462c32f14ee18
+  sha1: 3c10879b8501f871d4d98779c73249c3bbc86119
   dependencies:
   - python2.7
 - name: python2.7
   version: 72b814ca703de3ce5eb7552cef8af08357b7259c
   fingerprint: 72b814ca703de3ce5eb7552cef8af08357b7259c
-  sha1: 96d13949671d01fc3317badad29f362349d51d96
+  sha1: d206f5d9d6fce24005a11010a212a4ff8311977f
   dependencies: []
