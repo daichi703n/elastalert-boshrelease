@@ -8,7 +8,7 @@
   end
 %>
 ---
-rules_folder: ../rules
+rules_folder: /var/vcap/jobs/elastalert/rules
 <%= YAML.dump(JSON.load(JSON.dump({"run_every": p("elastalert.run_every")}))).gsub("---\n", '').strip %>
 <%= YAML.dump(JSON.load(JSON.dump({"buffer_time": p("elastalert.buffer_time")}))).gsub("---\n", '').strip %>
 es_host: <%= elasticsearch_host %>
