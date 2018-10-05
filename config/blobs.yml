@@ -22,9 +22,15 @@ elastalert/blist-1.3.6.tar.gz:
 elastalert/boto3-1.8.8.tar.gz:
   size: 93154
   sha: f55c6739fca00e43756c7f7ae5f4a338db5a3c9a
+elastalert/boto3-1.9.17.tar.gz:
+  size: 93184
+  sha: 86b446f7eef06239f02a0785ff0c6beb3ad23f3c
 elastalert/botocore-1.11.8.tar.gz:
   size: 4787268
   sha: d976d6587a3a1683890286b81efcd52786900fe0
+elastalert/botocore-1.12.17.tar.gz:
+  size: 4826862
+  sha: 3c9eed206f960520f95d44a215100ea9c3794af4
 elastalert/certifi-2018.8.24.tar.gz:
   size: 146866
   sha: cc1ab6c25a8c8079ab3ff1019530506cfd59bef7
@@ -103,12 +109,18 @@ elastalert/ordereddict-1.1.tar.gz:
 elastalert/pbr-4.2.0.tar.gz:
   size: 107958
   sha: 10165d4998cbe252676ee95306d8f2c843ad2fe6
+elastalert/pbr-4.3.0.tar.gz:
+  size: 112935
+  sha: 6f56956e7a915b2fec806acbf7c8d9872f763421
 elastalert/pyOpenSSL-18.0.0.tar.gz:
   size: 167296
   sha: a41b82512585dd05a5370fb737f4eb4119030a38
 elastalert/pycparser-2.18.tar.gz:
   size: 245897
   sha: 1c75af69ae6273b1f1f531744f87d060965ed85d
+elastalert/pycparser-2.19.tar.gz:
+  size: 158295
+  sha: a69ccf20b014709aeabdc4ec39f2f66e6a526a59
 elastalert/python-dateutil-2.6.1.tar.gz:
   size: 241428
   sha: db2ace298dee7e47fd720ed03eb790885347bf4e
