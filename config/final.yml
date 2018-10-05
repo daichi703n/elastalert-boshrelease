@@ -1,6 +1,8 @@
 name: elastalert
 blobstore:
-  provider: local
+  provider: s3
   options:
-    blobstore_path: /tmp/elastalert
+    bucket_name: elastalert-boshrelease
+    region: ap-northeast-1
+    endpoint: https://s3-ap-northeast-1.amazonaws.com
 
