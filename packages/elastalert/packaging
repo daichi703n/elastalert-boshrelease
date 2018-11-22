@@ -8,6 +8,10 @@ rm -f libffi/libffi-${LIBFFI_VERSION}.tgz
 sed -i "s|/app/.cloudfoundry/vendor|$(pwd)/libffi|" libffi/lib/pkgconfig/libffi.pc
 ln -s $(pwd)/libffi/lib/pkgconfig/libffi.pc /usr/share/pkgconfig/
 
+# workaround for Xenial stemcell
+cp -a $PWD/libffi/lib/libffi-${LIBFFI_VERSION}/include/*.h /var/vcap/packages/python2.7/include/python2.7/
+cp -a $PWD/libffi/lib/libffi.*  /var/vcap/packages/python2.7/lib/
+
 export PATH=/var/vcap/packages/python2.7/bin:$PATH
 export LD_LIBRARY_PATH=/var/vcap/packages/python2.7/lib:$LD_LIBRARY_PATH
 export C_INCLUDE_PATH=/var/vcap/packages/python2.7/include:$C_INCLUDE_PATH
