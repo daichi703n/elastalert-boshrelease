@@ -1,0 +1,13 @@
+---
+name: elastalert-silence-1h
+
+templates:
+  bin/run.sh: bin/run
+
+packages: []
+
+properties: {}
+
+consumes:
+- name: elastalert
+  type: elastalert

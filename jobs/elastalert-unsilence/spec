@@ -1,0 +1,15 @@
+---
+name: elastalert-unsilence
+
+templates:
+  bin/run.sh: bin/run
+
+packages: []
+
+properties: {}
+
+consumes:
+- name: elastalert
+  type: elastalert
+- name: elasticsearch
+  type: elasticsearch
