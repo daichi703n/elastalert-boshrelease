@@ -1,0 +1,16 @@
+---
+name: elastalert-silence
+
+templates:
+  bin/run.sh: bin/run
+
+packages: []
+
+properties:
+  silence:
+    description: "Silence rule for a time period. Must be used with --rule. Usage: --silence <units>=<number>"
+    default: "hours=1"
+
+consumes:
+- name: elastalert
+  type: elastalert

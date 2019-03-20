@@ -16,5 +16,5 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/var/vcap/packages/python2.7/lib
 source $JOB_DIR/bin/ctl_utils.sh
 
 <% link("elastalert").p("elastalert.rules").each_with_index do |rule, i| %>
-elastalert --verbose --config $CONFIG_DIR/config.yml --rule $RULE_DIR/rule_<%= i %>.yml --silence hours=24
+elastalert --verbose --config $CONFIG_DIR/config.yml --rule $RULE_DIR/rule_<%= i %>.yml --silence <%= p("silence") %>
 <% end %>
