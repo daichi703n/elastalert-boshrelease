@@ -74,6 +74,9 @@ elastalert/elastalert-0.1.35.tar.gz:
   size: 107122
   object_id: 42db9cb9-9341-4885-4dec-a141c5a5141c
   sha: bb8ef99382aa5553358c7c5189036323640b11e1
+elastalert/elastalert-0.1.39.tar.gz:
+  size: 113093
+  sha: 3633ca2cb251ad8fa1ad81bf44f4c5baa3eba968
 elastalert/elasticsearch-6.3.1.tar.gz:
   size: 71689
   object_id: 6089378d-f24e-4dce-4b1f-a23b24976f11
@@ -98,6 +101,9 @@ elastalert/functools32-3.2.3-2.tar.gz:
   size: 31171
   object_id: c235e49b-984a-46c9-6558-d309952a6466
   sha: a520082a56af52c7af8d2d1390856bf1a0d755df
+elastalert/future-0.17.1.tar.gz:
+  size: 829119
+  sha: 7abd068d09c637f4fa5fb2df3d90cc9607523aee
 elastalert/futures-3.2.0.tar.gz:
   size: 27320
   object_id: d227a572-d21a-42bd-6e48-9e7109508b4c
@@ -150,6 +156,9 @@ elastalert/python-dateutil-2.6.1.tar.gz:
   size: 241428
   object_id: 7be6d22b-986b-44ac-4113-09fb4419ee56
   sha: db2ace298dee7e47fd720ed03eb790885347bf4e
+elastalert/python-magic-0.4.15.tar.gz:
+  size: 73194
+  sha: fc69c0d4eef064d585095ee975d3ba089124c1f4
 elastalert/pytz-2018.7.tar.gz:
   size: 300745
   object_id: 1292e0dd-eb36-417f-48cc-5053056311be
@@ -182,6 +191,9 @@ elastalert/texttable-1.5.0.tar.gz:
   size: 9199
   object_id: 76537582-92fd-41c9-5d1f-52ac31c44597
   sha: a73e2c5e6afeef1a6270b23c7a90e558436394d6
+elastalert/thehive4py-1.5.1.tar.gz:
+  size: 59843
+  sha: 23af5fb9e58e80b97dc9a606a3b02cece232ab5c
 elastalert/twilio-6.0.0.tar.gz:
   size: 304885
   object_id: 37eb94f7-24bd-45bd-53e6-118396a398a6
