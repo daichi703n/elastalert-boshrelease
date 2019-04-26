@@ -1,2 +1,2 @@
-user: "<%= p(elastalert.smtp_user) %>"
-password: "<%= p(elastalert.smtp_password) %>"
+user: "<%= p('elastalert.smtp_user') %>"
+password: "<%= p('elastalert.smtp_password') %>"
