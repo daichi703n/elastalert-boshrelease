@@ -15,4 +15,4 @@ es_host: <%= elasticsearch_host %>
 es_port: <%= p("elastalert.es_port") %>
 writeback_index: <%= p("elastalert.writeback_index") %>
 <%= YAML.dump(JSON.load(JSON.dump({"alert_time_limit": p("elastalert.alert_time_limit")}))).gsub("---\n", '').strip %>
-
+smtp_auth_file: /var/vcap/jobs/elastalert/config/smtp_auth_file.yaml

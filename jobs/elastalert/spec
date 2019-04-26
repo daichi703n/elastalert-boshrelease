@@ -7,6 +7,7 @@ templates:
   bin/ctl_utils.sh: bin/ctl_utils.sh
   bin/elastalert-test-rule.sh: bin/elastalert-test-rule.sh
   config/config.yml: config/config.yml
+  config/smtp_auth_file.yml: config/smtp_auth_file.yml
 
 consumes:
 - name: elasticsearch
@@ -42,6 +43,10 @@ properties:
     description: "the retry window for failed alerts."
     default:
       days: 2
+  elastalert.smtp_user:
+    description: "username for smtp authentication."
+  elastalert.smtp_password:
+    description: "password for smtp authentication."
   elastalert.rules:
     description: "List of ElastAlert rules"
     example: |
