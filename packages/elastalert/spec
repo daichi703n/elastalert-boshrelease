@@ -2,7 +2,7 @@
 name: elastalert
 
 dependencies:
-- python2.7
+- python3.13
 
 files:
 - elastalert/*.tar.gz

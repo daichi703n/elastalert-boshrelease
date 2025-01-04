@@ -10,6 +10,21 @@ elastalert/PyYAML-5.1.1.tar.gz:
   size: 274442
   object_id: 03cd948d-928a-43bb-5956-0de0ac6464e5
   sha: sha256:b4bb4d3f5e232425e25dda21c070ce05168a786ac9eda43768ab7f3ac2770955
+elastalert/aiohappyeyeballs-2.4.4.tar.gz:
+  size: 21977
+  sha: sha256:5fdd7d87889c63183afc18ce9271f9b0a7d32c2303e394468dd45d514a757745
+elastalert/aiohttp-3.11.11.tar.gz:
+  size: 7669618
+  sha: sha256:bb49c7f1e6ebf3821a42d81d494f538107610c3a705987f53068546b0e90303e
+elastalert/aiohttp_retry-2.8.3.tar.gz:
+  size: 10585
+  sha: sha256:9a8e637e31682ad36e1ff9f8bcba912fcfc7d7041722bc901a4b948da4d71ea9
+elastalert/aiosignal-1.3.2.tar.gz:
+  size: 19424
+  sha: sha256:a8c255c66fafb1e499c9351d0bf32ff2d8a0321595ebac3b93713656d2436f54
+elastalert/apscheduler-3.11.0.tar.gz:
+  size: 107347
+  sha: sha256:4c622d250b0955a65d5d0eb91c33e6d43fd879834bf541e0a18661ae60460133
 elastalert/argparse-1.4.0.tar.gz:
   size: 70508
   object_id: 46cdb75b-ae17-410d-52eb-f02d16cf35ef
@@ -18,10 +33,16 @@ elastalert/asn1crypto-0.24.0.tar.gz:
   size: 104964
   object_id: 1af96a13-c3de-4c95-7371-c093137b53f8
   sha: sha256:9d5c20441baf0cb60a4ac34cc447c6c189024b6b4c6cd7877034f4965c464e49
+elastalert/attrs-24.3.0.tar.gz:
+  size: 805984
+  sha: sha256:8f5c07333d543103541ba7be0e2ce16eeee8130cb0b3f9238ab904ce1e85baff
 elastalert/aws-requests-auth-0.4.2.tar.gz:
   size: 9370
   object_id: 4a5a9c5c-005a-4a5f-49fb-1ae1577229a3
   sha: sha256:112c85fe938a01e28f7e1a87168615b6977b28596362b1dcbafbf4f2cc69f720
+elastalert/aws-requests-auth-0.4.3.tar.gz:
+  size: 10096
+  sha: sha256:33593372018b960a31dbbe236f89421678b885c35f0b6a7abfae35bb77e069b2
 elastalert/blist-1.3.6.tar.gz:
   size: 122442
   object_id: 0a9cc929-c9d7-4f19-5ac0-c81603d5005e
@@ -30,22 +51,37 @@ elastalert/boto3-1.9.164.tar.gz:
   size: 97256
   object_id: ec3c8402-67e8-4f03-67e3-30f04d36d0e8
   sha: sha256:8bf9159f6703b4c081d67ff0192ca47bdd99daf96848721b265f3e2450e0b49a
+elastalert/boto3-1.35.92.tar.gz:
+  size: 111016
+  sha: sha256:f7851cb320dcb2a53fc73b4075187ec9b05d51291539601fa238623fdc0e8cd3
 elastalert/botocore-1.12.164.tar.gz:
   size: 5630322
   object_id: 7623f726-5616-4218-4eb2-0bcbaab2d3ff
   sha: sha256:19eaccb6704996ed86482c2d88a2871322e98fa3ad6c7db19e12f9cfb516a518
+elastalert/botocore-1.35.92.tar.gz:
+  size: 13494438
+  sha: sha256:caa7d5d857fed5b3d694b89c45f82b9f938f840e90a4eb7bf50aa65da2ba8f82
 elastalert/certifi-2019.3.9.tar.gz:
   size: 158179
   object_id: b13812fb-9800-454a-6262-5a1278eeee40
   sha: sha256:b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae
+elastalert/certifi-2024.12.14.tar.gz:
+  size: 166010
+  sha: sha256:b650d30f370c2b724812bee08008be0c4163b163ddaec3f2546c1caf65f191db
 elastalert/cffi-1.12.3.tar.gz:
   size: 456340
   object_id: 584e10c9-e4d0-42c7-41db-45b082ff0e31
   sha: sha256:041c81822e9f84b1d9c401182e174996f0bae9991f33725d059b771744290774
+elastalert/cffi-1.17.1.tar.gz:
+  size: 516621
+  sha: sha256:1c39c6016c32bc48dd54561950ebd6836e1670f2ae46128f67cf49e789c52824
 elastalert/chardet-3.0.4.tar.gz:
   size: 1868453
   object_id: 02d92b49-f2d8-4e4a-5198-51ddd9601ef0
   sha: sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae
+elastalert/charset_normalizer-3.4.1.tar.gz:
+  size: 123188
+  sha: sha256:44251f18cd68a75b56585dd00dae26183e102cd5e0f9f1466e6df5da2ed64ea3
 elastalert/configparser-3.7.4.tar.gz:
   size: 71987
   object_id: 202e0b9d-b82f-4401-6378-823fc30a5ae4
@@ -54,6 +90,9 @@ elastalert/croniter-0.3.30.tar.gz:
   size: 18122
   object_id: 7008dc03-c6d3-4496-566e-3ba9227a5800
   sha: sha256:538adeb3a7f7816c3cdec6db974c441620d764c25ff4ed0146ee7296b8a50590
+elastalert/croniter-6.0.0.tar.gz:
+  size: 64481
+  sha: sha256:37c504b313956114a983ece2c2b07790b1f1094fe9d81cc94739214748255577
 elastalert/cryptography-2.7.tar.gz:
   size: 495877
   object_id: f9896eab-a937-4522-55fe-fbfef1a9e218
@@ -62,9 +101,11 @@ elastalert/defusedxml-0.6.0.tar.gz:
   size: 62670
   object_id: ed3a65d1-3333-4684-537b-ab30985e1288
   sha: sha256:f684034d135af4c6cbb949b8a4d2ed61634515257a67299e5f940fbaa34377f5
+elastalert/defusedxml-0.7.1.tar.gz:
+  size: 75520
+  sha: sha256:1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69
 elastalert/docopt-0.6.2.tar.gz:
   size: 25901
-  object_id: 0dbd7387-8d72-43a7-5ab9-d7bf3f497b72
   sha: sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491
 elastalert/docutils-0.14.tar.gz:
   size: 1727105
@@ -74,6 +115,9 @@ elastalert/elastalert-0.2.0b2.tar.gz:
   size: 121264
   object_id: 2ec2ec5f-3e29-461f-5529-706882e1a024
   sha: sha256:a8b35e328f89e2dfb08f2f9f4af18cc8f0ce89222ca273cd3317e269bb0127af
+elastalert/elastalert2-2.22.0.tar.gz:
+  size: 163117
+  sha: sha256:49a773c65659a7accf0c8623e869439dbe978923065614ca2bdca5cd5afefd42
 elastalert/elasticsearch-6.3.1.tar.gz:
   size: 71689
   object_id: 6089378d-f24e-4dce-4b1f-a23b24976f11
@@ -82,18 +126,22 @@ elastalert/elasticsearch-7.0.2.tar.gz:
   size: 85153
   object_id: fbf25e0f-952c-4647-5fae-8e8b09609f07
   sha: sha256:cbc73831c63fa2824538df76fcb2c4be007b43dbd9e7788ae70ea6d24109925b
+elastalert/elasticsearch-7.10.1.tar.gz:
+  size: 215377
+  sha: sha256:a725dd923d349ca0652cf95d6ce23d952e2153740cf4ab6daf4a2d804feeed48
 elastalert/enum34-1.1.6.tar.gz:
   size: 40048
   object_id: 29715a36-b4fd-4452-78f2-1d1904916195
   sha: sha256:8ad8c4783bf61ded74527bffb48ed9b54166685e4230386a9ed9b1279e2df5b1
 elastalert/envparse-0.2.0.tar.gz:
   size: 7576
-  object_id: 196b2974-468f-4568-41e6-202c0604b920
   sha: sha256:4f3b9a27bb55d27f124eb4adf006fec05e4588891c9a054a183a112645056eb7
 elastalert/exotel-0.1.5.tar.gz:
   size: 2179
-  object_id: e495f5fc-9e81-4f4a-4ef9-d3783c1b9324
   sha: sha256:db96e4b659e514da457364c6775c075d793fa90fab9d84f43575d1a5ee846bf4
+elastalert/frozenlist-1.5.0.tar.gz:
+  size: 39930
+  sha: sha256:81d5af29e61b9c8348e876d442253723928dce6433e0e76cd925cd83f1b4b817
 elastalert/funcsigs-1.0.2.tar.gz:
   size: 27947
   object_id: c5a689ca-31ce-4fdd-4da3-06a1be687a0e
@@ -110,38 +158,89 @@ elastalert/idna-2.8.tar.gz:
   size: 174481
   object_id: a641428e-ce2b-48a1-751c-05219419dd6c
   sha: sha256:c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407
+elastalert/idna-3.10.tar.gz:
+  size: 190490
+  sha: sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9
 elastalert/ipaddress-1.0.22.tar.gz:
   size: 33051
   object_id: 1c320a78-5417-464f-4ebc-e849706b81ea
   sha: sha256:b146c751ea45cad6188dd6cf2d9b757f6f4f8d6ffb96a023e6f2e26eea02a72c
+elastalert/jinja2-3.1.5.tar.gz:
+  size: 244674
+  sha: sha256:8fefff8dc3034e27bb80d67c671eb8a9bc424c0ef4c0826edbff304cceff43bb
 elastalert/jira-1.0.14.tar.gz:
   size: 151627
   object_id: 05e6b79c-04e3-4599-53fe-4e1d365010b3
   sha: sha256:a35e270c37c7f43f12bb67e4cad226e81f6bf926acfc35d4b60fc88715cbccf6
+elastalert/jira-3.8.0.tar.gz:
+  size: 102927
+  sha: sha256:63719c529a570aaa01c3373dbb5a104dab70381c5be447f6c27f997302fa335a
 elastalert/jmespath-0.9.4.tar.gz:
   size: 22940
   object_id: 99039cc5-fa0a-4c91-61c3-8b2a6ab5a009
   sha: sha256:bde2aef6f44302dfb30320115b17d030798de8c4110e28d5cf6cf91a7a31074c
+elastalert/jmespath-1.0.1.tar.gz:
+  size: 25843
+  sha: sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe
+elastalert/jsonpointer-3.0.0.tar.gz:
+  size: 9114
+  sha: sha256:2b2d729f2091522d61c3b31f82e11870f60b68f43fbc705cb76bf4b832af59ef
 elastalert/jsonschema-2.6.0.tar.gz:
   size: 53252
   object_id: 7e7bffdd-4dd1-464d-5f56-bb9c5c8a541f
   sha: sha256:6ff5f3180870836cae40f06fa10419f557208175f13ad7bc26caa77beb1f6e02
+elastalert/jsonschema-4.23.0.tar.gz:
+  size: 325778
+  sha: sha256:d71497fef26351a33265337fa77ffeb82423f3ea21283cd9467bb03999266bc4
+elastalert/jsonschema_specifications-2024.10.1.tar.gz:
+  size: 15561
+  sha: sha256:0f38b83639958ce1152d02a7f062902c41c8fd20d558b0c34344292d417ae272
+elastalert/markupsafe-3.0.2.tar.gz:
+  size: 20537
+  sha: sha256:ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0
 elastalert/mock-3.0.5.tar.gz:
   size: 28126
   object_id: edea6e78-d571-4d6b-6db1-451bb3eb990c
   sha: sha256:83657d894c90d5681d62155c82bda9c1187827525880eda8ff5df4ec813437c3
+elastalert/multidict-6.1.0.tar.gz:
+  size: 64002
+  sha: sha256:22ae2ebf9b0c69d206c003e2f6a914ea33f0a932d4aa16f236afc049d9958f4a
 elastalert/oauthlib-3.0.1.tar.gz:
   size: 149303
   object_id: 43e9f03e-17df-46d7-6bae-d1f602035df8
   sha: sha256:0ce32c5d989a1827e3f1148f98b9085ed2370fc939bf524c9c851d8714797298
+elastalert/oauthlib-3.2.2.tar.gz:
+  size: 177352
+  sha: sha256:9859c40929662bec5d64f34d01c99e093149682a3f38915dc0655d5a633dd918
 elastalert/ordereddict-1.1.tar.gz:
   size: 2114
   object_id: f329eb7a-56bf-47d2-4af4-9db26765302a
   sha: sha256:1c35b4ac206cef2d24816c89f89cf289dd3d38cf7c449bb3fab7bf6d43f01b1f
+elastalert/packaging-24.2.tar.gz:
+  size: 163950
+  sha: sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f
 elastalert/pbr-5.2.1.tar.gz:
   size: 116908
   object_id: c416053a-3a51-43bf-72de-f90365638339
   sha: sha256:93d2dc6ee0c9af4dbc70bc1251d0e545a9910ca8863774761f92716dece400b6
+elastalert/pillow-11.1.0.tar.gz:
+  size: 46742715
+  sha: sha256:368da70808b36d73b4b390a8ffac11069f8a5c85f29eff1f1b01bcf3ef5b2a20
+elastalert/prettytable-3.12.0.tar.gz:
+  size: 59539
+  sha: sha256:f04b3e1ba35747ac86e96ec33e3bb9748ce08e254dc2a1c6253945901beec804
+elastalert/prison-0.2.1.tar.gz:
+  size: 12040
+  sha: sha256:e6cd724044afcb1a8a69340cad2f1e3151a5839fd3a8027fd1357571e797c599
+elastalert/prometheus_client-0.21.1.tar.gz:
+  size: 78551
+  sha: sha256:252505a722ac04b0456be05c05f75f45d760c2911ffc45f2a06bcaed9f3ae3fb
+elastalert/propcache-0.2.1.tar.gz:
+  size: 41735
+  sha: sha256:3f77ce728b19cb537714499928fe800c3dda29e8d9428778fc7c186da4c09a64
+elastalert/py-zabbix-1.1.7.tar.gz:
+  size: 11447
+  sha: sha256:0176569e61b134a9e445d9086cdfe895583ffe938f34deea3a9cffa78011e459
 elastalert/pyOpenSSL-19.0.0.tar.gz:
   size: 168551
   object_id: f12e55cb-6255-4720-76d1-7d9dd9ac5e39
@@ -150,10 +249,19 @@ elastalert/pycparser-2.19.tar.gz:
   size: 158295
   object_id: 80ad9989-3d75-4e3f-53c7-c6fa21b27b0b
   sha: sha256:a988718abfad80b6b157acce7bf130a30876d27603738ac39f140993246b25b3
+elastalert/pycparser-2.22.tar.gz:
+  size: 172736
+  sha: sha256:491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6
+elastalert/pyjwt-2.10.1.tar.gz:
+  size: 87785
+  sha: sha256:3cc5772eb20009233caf06e9d8a0577824723b44e6648ee0a2aedb6cf9381953
 elastalert/python-dateutil-2.6.1.tar.gz:
   size: 241428
   object_id: 6811b73f-f6f9-42ea-699e-00cfe7ed3668
   sha: sha256:891c38b2a02f5bb1be3e4793866c8df49c7d19baabf9c1bad62547e0b4866aca
+elastalert/python-dateutil-2.9.0.post0.tar.gz:
+  size: 342432
+  sha: sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3
 elastalert/python-magic-0.4.15.tar.gz:
   size: 73194
   object_id: e90414a8-2e38-40a6-53da-ea0d6e2c2e3f
@@ -162,34 +270,76 @@ elastalert/pytz-2019.1.tar.gz:
   size: 308148
   object_id: 571c4252-9680-4276-6886-a09b8d7be226
   sha: sha256:d747dd3d23d77ef44c6a3526e274af6efeb0a6f1afd5a69ba4d5be4098c8e141
+elastalert/pytz-2024.2.tar.gz:
+  size: 319692
+  sha: sha256:2aa355083c50a0f93fa581709deac0c9ad65cca8a9e9beac660adcbd493c798a
+elastalert/pyyaml-6.0.2.tar.gz:
+  size: 130631
+  sha: sha256:d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e
+elastalert/referencing-0.35.1.tar.gz:
+  size: 62991
+  sha: sha256:25b42124a6c8b632a425174f24087783efb348a6f1e0008e63cd4466fedf703c
 elastalert/requests-2.22.0.tar.gz:
   size: 113406
   object_id: e19c1f74-6753-476a-4938-250f6cac9ef6
   sha: sha256:11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4
+elastalert/requests-2.32.3.tar.gz:
+  size: 131218
+  sha: sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760
 elastalert/requests-oauthlib-1.2.0.tar.gz:
   size: 83381
   object_id: 8b5a88bf-1e0d-435c-4ac2-ec5d5859e8ff
   sha: sha256:bd6533330e8748e94bf0b214775fed487d309b8b8fe823dc45641ebcd9a32f57
+elastalert/requests-oauthlib-2.0.0.tar.gz:
+  size: 55650
+  sha: sha256:b3dffaebd884d8cd778494369603a9e7b58d29111bf6b41bdc2dcd87203af4e9
 elastalert/requests-toolbelt-0.9.1.tar.gz:
   size: 207286
   object_id: fb08fd59-8867-40e1-4b3d-07d60ef62605
   sha: sha256:968089d4584ad4ad7c171454f0a5c6dac23971e9472521ea3b6d49d610aa6fc0
+elastalert/requests-toolbelt-1.0.0.tar.gz:
+  size: 206888
+  sha: sha256:7681a0a3d047012b5bdc0ee37d7f8f07ebe76ab08caeccfc3921ce23c88d5bc6
+elastalert/rpds_py-0.22.3.tar.gz:
+  size: 26771
+  sha: sha256:e32fee8ab45d3c2db6da19a5323bc3362237c8b653c70194414b892fd06a080d
 elastalert/s3transfer-0.2.1.tar.gz:
   size: 119635
   object_id: 942a1e86-c8a9-4b7e-7abe-b81f19b456ca
   sha: sha256:6efc926738a3cd576c2a79725fed9afde92378aa5c6a957e3af010cb019fac9d
+elastalert/s3transfer-0.10.4.tar.gz:
+  size: 145287
+  sha: sha256:29edc09801743c21eb5ecbc617a152df41d3c287f67b615f73e5f750583666a7
 elastalert/six-1.12.0.tar.gz:
   size: 32725
   object_id: 4dc21211-772a-440b-549a-a4ba1a2216b6
   sha: sha256:d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73
+elastalert/six-1.17.0.tar.gz:
+  size: 34031
+  sha: sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81
+elastalert/sortedcontainers-2.4.0.tar.gz:
+  size: 30594
+  sha: sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88
+elastalert/statsd-tags-3.2.1.post1.tar.gz:
+  size: 24606
+  sha: sha256:acd7e07a300f32984b5fa17115296309e1253b911736962f72383d66707aea71
 elastalert/stomp.py-4.1.22.tar.gz:
   size: 50541
   object_id: 9faa4183-0677-49ce-7793-715ab22ceeb2
   sha: sha256:d28120d902dcb81274cf78bd269dfbdfe2b20ea5ae5b33d90b56a32e8c18abe2
+elastalert/stomp_py-8.2.0.tar.gz:
+  size: 39286
+  sha: sha256:9908689361e263bf198e6acfb3c4386759fb7df7d141f4384d7414771c68d7fc
+elastalert/tencentcloud-sdk-python-3.0.1295.tar.gz:
+  size: 11228023
+  sha: sha256:32e5f8dfadf66c13dd3b8f62fe471517f99a845179036125240d504cd1233d95
 elastalert/texttable-1.6.1.tar.gz:
   size: 14000
   object_id: 7f6b81b3-509f-48f1-6150-1447c8792c7e
   sha: sha256:2b60a5304ccfbeac80ffae7350d7c2f5d7a24e9aab5036d0f82489746419d9b2
+elastalert/texttable-1.7.0.tar.gz:
+  size: 12831
+  sha: sha256:2d2068fb55115807d3ac77a4ca68fa48803e84ebb0ee2340f858107a36522638
 elastalert/thehive4py-1.6.0-py2-none-any.whl:
   size: 22221
   object_id: 1945d6cf-91d0-46c7-54ad-2282ba9eec34
@@ -198,10 +348,31 @@ elastalert/twilio-6.0.0.tar.gz:
   size: 304885
   object_id: 02407f6b-550d-4f11-48bb-f8e694aa8902
   sha: sha256:2c284ed978b992b601914177746ba8afe29d9099fd6b4efaa1628e32951391d5
+elastalert/twilio-9.4.1.tar.gz:
+  size: 986984
+  sha: sha256:e24c640696ccc726bba14160951da3cfc6b4bcb772fdcb3e8c16dc3cc851ef12
+elastalert/typing_extensions-4.12.2.tar.gz:
+  size: 85321
+  sha: sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8
+elastalert/tzlocal-5.2.tar.gz:
+  size: 30201
+  sha: sha256:8d399205578f1a9342816409cc1e46a93ebd5755e39ea2d85334bea911bf0e6e
 elastalert/urllib3-1.25.3.tar.gz:
   size: 262150
   object_id: 4affff9d-6155-49ab-45a0-464b9248b57d
   sha: sha256:dbe59173209418ae49d485b87d1681aefa36252ee85884c31346debd19463232
+elastalert/urllib3-1.26.20.tar.gz:
+  size: 307380
+  sha: sha256:40c2dc0c681e47eb8f90e7e27bf6ff7df2e677421fd46756da1161c39ca70d32
+elastalert/wcwidth-0.2.13.tar.gz:
+  size: 101301
+  sha: sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5
+elastalert/websocket_client-1.8.0.tar.gz:
+  size: 54648
+  sha: sha256:3239df9f44da632f96012472805d40a23281a991027ce11d2f45a6f24ac4c3da
+elastalert/yarl-1.18.3.tar.gz:
+  size: 181062
+  sha: sha256:ac1801c45cbf77b6c99242eeff4fffb5e4e73a800b5c4ad4fc0be5def634d2e1
 libffi/libffi-3.2.1.tgz:
   size: 35189
   object_id: 1ddff9ef-4653-4932-423e-7dd418c71637
@@ -210,3 +381,6 @@ python2.7/Python-2.7.15.tgz:
   size: 17496336
   object_id: a07b7bfd-591e-46b3-68ce-f4581e32a023
   sha: c9750707d127d39a6868e1e55f7cd8c7be006b89
+python3.13/Python-3.13.1.tgz:
+  size: 29275877
+  sha: sha256:1513925a9f255ef0793dbf2f78bb4533c9f184bdd0ad19763fd7f47a400a7c55
