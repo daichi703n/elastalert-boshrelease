@@ -16,4 +16,4 @@ export PATH=/var/vcap/packages/python3.13/bin:$PATH
 export LD_LIBRARY_PATH=/var/vcap/packages/python3.13/lib:$LD_LIBRARY_PATH
 export C_INCLUDE_PATH=/var/vcap/packages/python3.13/include:$C_INCLUDE_PATH
 
-pip3.13 install --no-index --no-allow-external --find-links ./elastalert/ --prefix=${BOSH_INSTALL_TARGET} elastalert
+pip3.13 install --no-index --find-links ./elastalert/ --prefix=${BOSH_INSTALL_TARGET} elastalert2

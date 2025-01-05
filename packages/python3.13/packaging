@@ -4,6 +4,8 @@ CPUS=`grep -c ^processor /proc/cpuinfo`
 PYTHON_VERSION=3.13.1
 
 tar xzf python3.13/Python-${PYTHON_VERSION}.tgz
+#sh python3.13/rustup-init.sh
+#. "$HOME/.cargo/env"
 
 pushd Python-${PYTHON_VERSION}
   ./configure \
