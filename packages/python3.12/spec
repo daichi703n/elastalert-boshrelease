@@ -1,0 +1,7 @@
+---
+name: python3.12
+
+dependencies: []
+
+files:
+- python3.12/Python-3.12.8.tgz

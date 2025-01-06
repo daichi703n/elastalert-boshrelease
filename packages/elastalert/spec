@@ -2,8 +2,10 @@
 name: elastalert
 
 dependencies:
-- python2.7
+- python3.12
 
 files:
 - elastalert/*.tar.gz
+- elastalert/*.whl
 - libffi/libffi-3.2.1.tgz
+- rust/rust-1.83.0-x86_64-unknown-linux-gnu.tar.xz

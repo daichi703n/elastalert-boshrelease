@@ -2,6 +2,8 @@ set -e
 
 
 LIBFFI_VERSION=3.2.1
+RUST_VERSION=1.83.0
+RUST_ARCH_DISTRO=x86_64-unknown-linux-gnu
 
 tar xzf libffi/libffi-${LIBFFI_VERSION}.tgz -C libffi/
 rm -f libffi/libffi-${LIBFFI_VERSION}.tgz
@@ -9,11 +11,16 @@ sed -i "s|/app/.cloudfoundry/vendor|$(pwd)/libffi|" libffi/lib/pkgconfig/libffi.
 ln -s $(pwd)/libffi/lib/pkgconfig/libffi.pc /usr/share/pkgconfig/
 
 # workaround for Xenial stemcell
-cp -a $PWD/libffi/lib/libffi-${LIBFFI_VERSION}/include/*.h /var/vcap/packages/python2.7/include/python2.7/
-cp -a $PWD/libffi/lib/libffi.*  /var/vcap/packages/python2.7/lib/
+cp -a $PWD/libffi/lib/libffi-${LIBFFI_VERSION}/include/*.h /var/vcap/packages/python3.12/include/python3.12/
+cp -a $PWD/libffi/lib/libffi.*  /var/vcap/packages/python3.12/lib/
 
-export PATH=/var/vcap/packages/python2.7/bin:$PATH
-export LD_LIBRARY_PATH=/var/vcap/packages/python2.7/lib:$LD_LIBRARY_PATH
-export C_INCLUDE_PATH=/var/vcap/packages/python2.7/include:$C_INCLUDE_PATH
+export PATH=/var/vcap/packages/python3.12/bin:$PATH
+export LD_LIBRARY_PATH=/var/vcap/packages/python3.12/lib:$LD_LIBRARY_PATH
+export C_INCLUDE_PATH=/var/vcap/packages/python3.12/include:$C_INCLUDE_PATH
 
-pip2.7 install --no-index --no-allow-external --find-links ./elastalert/ --prefix=${BOSH_INSTALL_TARGET} elastalert
+tar Jxf rust/rust-${RUST_VERSION}-${RUST_ARCH_DISTRO}.tar.xz -C rust/
+sh rust/rust-${RUST_VERSION}-${RUST_ARCH_DISTRO}/install.sh --components="rustc,rust-std-${RUST_ARCH_DISTRO},cargo"
+rm -f rust/rust-${RUST_VERSION}-${RUST_ARCH_DISTRO}.tar.xz
+rm -rf rust/rust-${RUST_VERSION}-${RUST_ARCH_DISTRO}
+
+pip3.12 install --no-index --find-links ./elastalert/ --prefix=${BOSH_INSTALL_TARGET} elastalert2

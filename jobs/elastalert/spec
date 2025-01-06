@@ -16,7 +16,7 @@ consumes:
 
 packages:
 - elastalert
-- python2.7
+- python3.12
 
 properties:
   elastalert.rules_folder:

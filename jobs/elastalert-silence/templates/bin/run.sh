@@ -8,10 +8,10 @@ TMP_DIR=/var/vcap/sys/tmp/elastalert
 PIDFILE=$RUN_DIR/elastalert.pid
 RULE_DIR=<%= link("elastalert").p("elastalert.rules_folder") %>
 
-export PATH=/var/vcap/packages/python2.7/bin:/var/vcap/packages/elastalert/bin:$PATH
+export PATH=/var/vcap/packages/python3.12/bin:/var/vcap/packages/elastalert/bin:$PATH
 export CONFIG_DIR=/var/vcap/jobs/elastalert/config
-export PYTHONPATH=/var/vcap/packages/elastalert/lib/python2.7/site-packages/
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/var/vcap/packages/python2.7/lib
+export PYTHONPATH=/var/vcap/packages/elastalert/lib/python3.12/site-packages/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/var/vcap/packages/python3.12/lib
 
 source $JOB_DIR/bin/ctl_utils.sh
 

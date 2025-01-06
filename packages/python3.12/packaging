@@ -1,9 +1,9 @@
 set -e
 
 CPUS=`grep -c ^processor /proc/cpuinfo`
-PYTHON_VERSION=2.7.15
+PYTHON_VERSION=3.12.8
 
-tar xzf python2.7/Python-${PYTHON_VERSION}.tgz
+tar xzf python3.12/Python-${PYTHON_VERSION}.tgz
 
 pushd Python-${PYTHON_VERSION}
   ./configure \

@@ -17,17 +17,18 @@ blob_download() {
   fi
 }
 
-blob_download python2.7 https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tgz Python-2.7.15.tgz
+blob_download python3.12 https://www.python.org/ftp/python/3.12.8/Python-3.12.8.tgz Python-3.12.8.tgz
 blob_download libffi https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/python/libffi-3.2.1-linux-x64-5f5bf32c.tgz libffi-3.2.1.tgz
+blob_download rust https://static.rust-lang.org/dist/rust-1.83.0-x86_64-unknown-linux-gnu.tar.xz rust-1.83.0-x86_64-unknown-linux-gnu.tar.xz
 
-pip download -d elastalert --no-binary :all: elastalert==0.1.35
-pip download -d elastalert --no-binary :all: python-magic
-pip download -d elastalert --no-binary :all: future
-curl -L -J https://files.pythonhosted.org/packages/ab/10/817237669677f568238bb26760fe373b3b0be200cac309e0035389beff9a/thehive4py-1.6.0-py2-none-any.whl -o elastalert/thehive4py-1.6.0-py2-none-any.whl
-rm -f elastalert/elastalert-*.tar.gz
-curl -L -J https://files.pythonhosted.org/packages/59/47/d5c3c0b687c9e4c81b75eacee1b3cd29f0a101c92ebebd4a41464b61c622/elastalert-0.2.0b2.tar.gz -o elastalert/elastalert-0.2.0b2.tar.gz
-for f in $(ls elastalert/*.tar.gz elastalert/*.whl);do 
-  bosh add-blob --dir=${DIR} ${f} ${f}
+pip download -d elastalert --no-binary :all: "elastalert2==2.20.0"
+pip download -d elastalert --no-binary :all: "setuptools>=40.8.0" "setuptools_scm<8.0,>=6.4" "flit_core>=3.3" "hatchling" "calver" "hatch-vcs" "hatch-fancy-pypi-readme" "wheel" "Cython" "poetry-core" "maturin<2.0,>=1.2" "setuptools-rust>=1.4.0" "mypy<=1.14.0,>=1.4.1" "types-psutil" "types-setuptools" "expandvars"
+rm -f elastalert/pillow-*.tar.gz
+pip wheel -w elastalert pillow
+for f in $(ls elastalert/*.tar.gz elastalert/*.whl);do
+  if [ ! -f ${DIR}/blobs/${f} ];then
+    bosh add-blob --dir=${DIR} ${f} ${f}
+  fi
 done
 
 # export BOSH_INSTALL_TARGET=bosh
